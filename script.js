@@ -1,6 +1,6 @@
 // Image URLs from Unsplash - cute animals and nature
         var images = [
-            'img1.webp',
+            'img1.jpg',
             'img2.jpg',
             'img3.jpeg',
             'img4.jpg',
