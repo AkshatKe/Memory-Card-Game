@@ -36,7 +36,7 @@
             for (var i = 0; i < cardImages.length; i++) {
                 var card = document.createElement('div');
                 card.className = 'card';
-                card.innerHTML = '<div class="card-front"><i class="fas fa-heart"></i></div>' +
+                card.innerHTML = '<div class="card-front"><i class="fas fa-diamond"></i></div>' +
                                 '<div class="card-back"><img src="' + cardImages[i] + '"></div>';
                 card.onclick = flipCard;
                 card.dataset.image = cardImages[i];
