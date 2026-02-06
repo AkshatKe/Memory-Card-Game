@@ -140,5 +140,12 @@
             startGame();
         }
 
-        // Start the game when page loads
-        startGame();
+        // Show welcome modal on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('welcomeModal').classList.add('show');
+        });
+
+        function startGameFromWelcome() {
+            document.getElementById('welcomeModal').classList.remove('show');
+            startGame();
+        }
