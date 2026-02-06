@@ -37,7 +37,7 @@
                 var card = document.createElement('div');
                 card.className = 'card';
                 card.innerHTML = '<div class="card-front"><i class="fas fa-diamond"></i></div>' +
-                                '<div class="card-back"><img src="' + cardImages[i] + '"></div>';
+                                '<div class="card-back"><img src="' + cardImages[i] + '" alt="Cute animal memory card image"></div>';
                 card.onclick = flipCard;
                 card.dataset.image = cardImages[i];
                 gameBoard.appendChild(card);
