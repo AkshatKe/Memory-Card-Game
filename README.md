@@ -1,4 +1,4 @@
-# 🧠 Memory Match Game
+# 🧠 Card Matching Game
 
 A fun and interactive **Memory Card Matching Game** built using **HTML, CSS, and JavaScript**.  
 Flip the cards, find matching pairs, and win the game in minimum moves and time.
